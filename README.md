@@ -21,3 +21,16 @@ For example,
     git commit -m "message" is read as git | commit -m | "message"; and
     git status is read as git | status | (no destination).
 
+## check branches
+```
+git branch
+```
+## switch between branches
+```
+git checkout 
+```
+## create branch
+```
+git checkout -b name_of_the_branch
+```
+
