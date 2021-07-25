@@ -33,4 +33,30 @@ git checkout
 ```
 git checkout -b name_of_the_branch
 ```
+## check changes made
+```
+git diff branch_name
+```
+## push branch upstream 
+```
+git push -u origin branch_name
+```
+## make PR
+
+## get changes to the local branch
+```
+git pull origin master
+```
+```
+git pull
+```
+## delete branch
+```
+git branch -d branch_name
+```
+## for modified files
+```
+git commit -am ""
+```
+
 
