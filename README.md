@@ -58,8 +58,18 @@ git branch -d branch_name
 ```
 git commit -am ""
 ```
-Some Changes
 
 # Changes
-Undoing
-
+For undoing stages
+```
+git reset
+```
+```
+git reset HEAD~#
+```
+```
+git reset commit_hash
+```
+```
+git reset --hard commit_hash
+```
